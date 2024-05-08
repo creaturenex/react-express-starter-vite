@@ -13,5 +13,7 @@ RUN npm install
 # Copies everything over to Docker environment
 COPY . .
 
+# EXPOSE 3000
+
 # The default command to use when running this image
 CMD ["npm", "run", "dev"]
