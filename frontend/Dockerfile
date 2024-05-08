@@ -14,4 +14,4 @@ RUN npm install
 COPY . .
 
 # The default command to use when running this image
-CMD ["npm", "dev"]
+CMD ["npm", "run", "dev"]
