@@ -19,7 +19,8 @@ services:
 
   postgres:
     image: 'postgres:9.6.20-alpine'
-    restart: always
+    # Uncommented for dev, remove for production
+    # restart: always
     volumes:
       - 'postgres:/var/lib/postgresql/data'
     environment:

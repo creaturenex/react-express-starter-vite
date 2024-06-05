@@ -1,10 +1,20 @@
+import { CardForm } from "./CardForm";
+import { Navbar } from "./Navbar";
+
 function App() {
 return (
-  <>
-    <h1 className="text-6xl font-bold underline">
-      Hello world!
-    </h1>
-  </>
+  <div >
+    <Navbar />
+    <br />
+    <div className="container mx-auto">
+      <div className="flex flex-row flex-wrap">
+        <CardForm title="Material UI"/>
+        <CardForm title="CARD number 2"/>
+        <CardForm title="CARD 3"/>
+        <CardForm title="CARD 4"/>
+      </div>
+    </div>
+  </div>
   )
 }
 
